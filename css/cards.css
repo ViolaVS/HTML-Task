@@ -1,0 +1,31 @@
+.client-card {
+  padding: 4rem 0;
+}
+.client-card__image {
+  width: 50%;
+  border-radius: 50%;
+}
+.client-card__text {
+  margin-top: 5rem;
+}
+.product-card {
+  padding: 3rem 0;
+  justify-content: space-around;
+}
+.product-card__image {
+  border-radius: 50%;
+  width: 50%;
+}
+.product-card__text {
+  margin-top: 5rem;
+  width: 80%;
+  text-align: center;
+}
+.feedback-card {
+  padding: 3rem 1rem;
+  gap: 3rem;
+}
+.feedback-card__title {
+  font-size: 700;
+  font-weight: bold;
+}
