@@ -35,3 +35,13 @@ document.addEventListener('click', (e) => {
 });
 
 navigate(location.pathname.replace('/', '') || 'clients');
+
+const createCurrentYear = () => {
+  const yearSpan = document.getElementById('year');
+  if (yearSpan) {
+    const currentYear = new Date().getFullYear();
+    yearSpan.textContent = currentYear;
+  }
+};
+
+createCurrentYear();

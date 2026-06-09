@@ -11,8 +11,8 @@
   align-self: flex-start;
   color: var(--color-white);
   background-color: var(--color-red);
-  border-right: 2px solid #8e373e;
-  border-bottom: 2px solid #8e373e;
+  border-right: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
   padding: 0.5rem 1rem;
   max-width: 8rem;
 }
