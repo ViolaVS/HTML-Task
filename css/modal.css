@@ -1,0 +1,21 @@
+.modal {
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  background: white;
+  padding: 0.5rem;
+  width: 275px;
+  border-radius: 0.3rem;
+  z-index: 11;
+  font-size: 0.8rem;
+}
+.form-modal {
+  width: 190px;
+}
+
+.close {
+  text-align: end;
+  cursor: pointer;
+  font-size: 2rem;
+}

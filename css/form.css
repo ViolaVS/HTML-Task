@@ -1,0 +1,43 @@
+.portfolio__form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(231, 230, 230);
+  font-size: var(--font-size-text);
+  padding: 2rem 6rem;
+  margin-top: 2rem;
+}
+
+.button {
+  align-self: flex-start;
+  color: var(--color-white);
+  background-color: var(--color-red);
+  border-right: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
+  padding: 0.5rem 1rem;
+  max-width: 8rem;
+}
+.form__title {
+  margin-bottom: 2rem;
+}
+.input,
+.input-label {
+  margin-bottom: 1rem;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.input {
+  outline: none;
+  max-width: 70%;
+}
+.error {
+  font-size: var(--font-size-title);
+  color: var(--color-red);
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 766px) {
+  .portfolio__form {
+    padding: 1rem;
+  }
+}
